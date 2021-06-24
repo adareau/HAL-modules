@@ -33,6 +33,7 @@ class XenicsData(AbstractCameraPictureData):
         self.pixel_size = 6.45  # µm
         self.pixel_size_unit = "µm"
         self.magnification = 0.27
+        self.default_display_scale = (0, 1000)
 
         # - data related
         x = self.pixel_size / self.magnification

@@ -13,7 +13,7 @@ from pathlib import Path
 from scipy.io import loadmat
 
 # -- local
-from ....classes.metadata.abstract import AbstractMetaData
+from HAL.classes.metadata.abstract import AbstractMetaData
 
 
 # %% TOOL
